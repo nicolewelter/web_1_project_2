@@ -1,0 +1,310 @@
+@font-face {
+    font-family: museo;
+    src: url(assets/fonts/museo/museo-300-webfont.ttf);
+    }
+
+body {
+    background-image: url(assets/textures/fabric_plaid.png);
+    font-family: museo;
+    font-size: 18px;
+    margin: 0;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+.main-nav {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social-nav {
+    width: 20%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.login-nav {
+    display: flex;
+    justify-content:flex-end;
+
+}
+
+.social-links {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+}
+
+.social-icons {
+    width: 25px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+a, nav p {
+    font-size: 1vw;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+}
+
+.slideshow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(assets/images/WelterNicole_LACPoster_Final.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 40vw;
+
+}
+
+#slideshow-caption {
+    align-self: flex-end;
+    width: 100%;
+    height: 55px;
+    background-color: rgba(77, 77, 77, .70);
+    padding: 15px 30px 15px 15px;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -box-border: border-box;
+    margin: 0px;
+    text-align: right;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    margin: -26.5px;
+}
+
+#intro {
+    margin: 3.5% auto;
+}
+
+.center {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.5%;
+}
+
+.tile {
+    width: 25%;
+    margin: 2.5%;
+}
+
+
+.button {
+    display: block;
+    width: 20%;
+    padding: 1%;
+    margin-bottom: 2.5%;
+}
+
+.button, footer {
+    background-image: url(assets/textures/az_subtle.png);
+    background-color: rgba(147, 140, 116, .5);
+    background-blend-mode: multiply;
+}
+
+.footer {
+    width: 100vw;
+}
+
+.footer-bar {
+    height: 60px;
+    background-color:  rgb(77, 77, 77); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.25%;
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.4);
+}
+
+.footer-bar img {
+    width: 25px;
+    transform: rotate(25deg); 
+    margin-right: 1%;
+}
+
+.footer-bar p span {
+    font-size: .8rem;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: bottom;  
+    padding: 3%;
+}
+
+.footer-nav, .about, .mini-gallery {
+    width: 30%;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.main-footer-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 5%;
+}
+
+#footer-logo {
+    width: 25%;
+}
+
+.search-bar {
+    text-align: left;
+    margin: 0;
+}
+
+#search {
+    font-family: museo;
+    font-size: 1.35vw;
+    width: 96%;
+    margin-top: 1%;
+    padding: 2%;
+}
+
+
+.about, .mini-gallery {
+    padding-top: 1%;
+}
+
+.about {
+    margin-block-end: 1.6rem;
+    line-height: 160%;    
+}
+
+.light {
+    color: white;
+}
+
+p, h3 {
+    margin: 0%;
+    padding: 1% 0;
+}
+
+h2 {
+    font-size: 1.3rem;
+    margin: 0;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#profile-slideshow {
+    height: 60vh;
+}
+
+#alt-picture {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2vh;
+    margin-bottom: 3.5%;
+}
+
+.top-gallery, .profile-alt, .profile-box {
+    border: solid 10px white;
+}
+
+.profile-alt{
+    width: 30%;
+}
+
+#left-content {
+    width: 60vw;
+}
+
+#right-content {
+    width: 28vw;
+}
+
+#profile-box {
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: .8rem;
+    background-color: white;
+}
+
+.profile-img{
+    width: 20%;
+    margin-left: .8rem;
+}
+
+#project-info {
+    padding: 1rem;
+    background-color: white;
+    margin-top: 1.2rem;
+    line-height: 150%;
+    height: 71.5%;
+}
+
+#project-info p {
+    margin-block-end: .6rem;
+    margin-block-start: .6rem;
+}
+
+#profile-gallery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../assets/images/WelterNicole_LACPoster_Final.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 60vw;
+}
+
+@media (max-width: 750px) {
+    .tile {
+        width: 30%;
+    }
+    .mini-gallery {
+        display: none;
+    }
+    .about, .footer-nav {
+        width: 45%;
+    }
